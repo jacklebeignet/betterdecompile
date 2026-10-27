@@ -16,6 +16,9 @@ Load **BetterDecompile** onto your executor:
 loadstring(game:HttpGet("https://raw.githubusercontent.com/jacklebeignet/betterdecompile/refs/heads/main/betterdecompile.luau"))()
 ```
 
+> [!TIP]
+> If your executor supports an `autoexecute` folder, copy `betterdecompile.luau` into it. The executor runs it automatically on every launch, so `decompile()` is available without running the `loadstring` line manually.
+
 Then use it like the native function:
 
 ```lua
