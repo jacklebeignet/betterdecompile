@@ -1,5 +1,7 @@
 # BetterDecompile
 
+[![jsDelivr Stats](https://data.jsdelivr.com/v1/package/gh/jacklebeignet/betterdecompile/badge)](https://www.jsdelivr.com/package/gh/jacklebeignet/betterdecompile)
+
 **A better decompiler for your executor!**
 
 Adds a global `decompile()` to executors, backed by the
@@ -13,7 +15,7 @@ This replaces an existing `decompile()`.
 Load **BetterDecompile** onto your executor:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/jacklebeignet/betterdecompile/refs/heads/main/betterdecompile.luau"))()
+loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/jacklebeignet/betterdecompile@refs/heads/main/betterdecompile.luau"))()
 ```
 
 > [!TIP]
