@@ -1,0 +1,31 @@
+
+globals:
+  request:
+    args:
+      - type: table
+  http_request:
+    args:
+      - type: table
+  getscriptbytecode:
+    args:
+      - type: any
+  dumpstring:
+    args:
+      - type: any
+  dumpbytecode:
+    args:
+      - type: function
+  getfunctionbytecode:
+    args:
+      - type: function
+  getgenv:
+    args: []
+  http.request:
+    args:
+      - type: table
+  syn.request:
+    args:
+      - type: table
+  fluxus.request:
+    args:
+      - type: table
