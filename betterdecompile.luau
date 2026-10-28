@@ -2,7 +2,7 @@
 	BetterDecompile - An better decompiler for your executor!
 
 	Usage:
-		loadstring(game:HttpGet("<url to this file>"))()
+		loadstring(game:HttpGet("https://cdn.jsdelivr.net/gh/jacklebeignet/betterdecompile@refs/heads/main/betterdecompile.luau"))()
 		print(decompile(game:GetService("ReplicatedStorage").SomeModule))
 
 	Replaces any existing decompile().
